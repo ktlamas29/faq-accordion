@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #fbe1fe;
+    font-family: 'Work Sans', sans-serif;
+    // height: 100vh;
+    
+
+    header{
+        height: 232px;
+        background-image: url("../assets/images/background-pattern-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @media (min-width: 375px) {
+            background-image: url("../assets/images/background-pattern-desktop.svg");
+            background-size: cover;
+        }
+    }
+
+    .main{
+        width: 85%;
+        background: hsl(0, 0%, 100%);
+        margin: -99px  auto 0 auto ;
+        padding: 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        // border: 3px solid palevioletred;
+        // box-shadow: 4px 1px 2px 0px #a0a0a0;
+
+        @media (min-width: 376px) {
+                width: 40%;
+                // background: brown;
+        }
+
+        .title{
+            display: flex;
+            // background: #007e80;
+            margin-bottom: 10px;
+
+            h1{
+            color: hsl(292, 42%, 14%);
+            margin-left: 20px;
+            
+            }
+        }
+
+        section{
+
+            article{
+                margin-bottom: 10px;
+
+                button{
+                    cursor: pointer;
+                    // background: yellowgreen;
+                    background: none;
+                    border: none;
+                    width: 100%;
+                    
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px 0px;
+
+                    h3{
+                        color: hsl(292, 42%, 14%);
+                        text-align: start;
+                    }
+                    i{
+                        // background: red;
+                        padding: 5px;
+
+                        // img{
+                            
+                        // }
+                    }
+                }
+
+                p{
+                    color: hsl(292, 16%, 49%);
+                    margin-top: 10px;
+                    transition:all .5s ease ;
+                    -webkit-transition:all .5s ease ;
+                    -moz-transition:all .5s ease ;
+                    -ms-transition:all .5s ease ;
+                    -o-transition:all .5s ease ;
+                    -webkit-transition:all;
+                    
+
+                    &.close{
+                        height: 0px;
+                        overflow: hidden;
+                    }
+
+                }
+            }
+        }
+    }
+}

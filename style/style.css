@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fbe1fe;
+  font-family: "Work Sans", sans-serif;
+}
+body header {
+  height: 232px;
+  background-image: url("../assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 375px) {
+  body header {
+    background-image: url("../assets/images/background-pattern-desktop.svg");
+    background-size: cover;
+  }
+}
+body .main {
+  width: 85%;
+  background: hsl(0, 0%, 100%);
+  margin: -99px auto 0 auto;
+  padding: 15px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+@media (min-width: 376px) {
+  body .main {
+    width: 40%;
+  }
+}
+body .main .title {
+  display: flex;
+  margin-bottom: 10px;
+}
+body .main .title h1 {
+  color: hsl(292, 42%, 14%);
+  margin-left: 20px;
+}
+body .main section article {
+  margin-bottom: 10px;
+}
+body .main section article button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+}
+body .main section article button h3 {
+  color: hsl(292, 42%, 14%);
+  text-align: start;
+}
+body .main section article button i {
+  padding: 5px;
+}
+body .main section article p {
+  color: hsl(292, 16%, 49%);
+  margin-top: 10px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all;
+}
+body .main section article p.close {
+  height: 0px;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
