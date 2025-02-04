@@ -33,14 +33,14 @@ body .main {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
 }
-@media (min-width: 376px) {
+@media (min-width: 375px) {
   body .main {
     width: 40%;
+    margin: -120px auto 0 auto;
   }
 }
 @media screen and (max-width: 414px) {
   body .main {
-    background: rgb(218, 15, 218);
     width: 90%;
   }
 }

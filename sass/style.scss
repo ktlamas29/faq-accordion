@@ -41,14 +41,16 @@ body{
         // border: 3px solid palevioletred;
         // box-shadow: 4px 1px 2px 0px #a0a0a0;
 
-        @media (min-width: 376px) {
+        @media (min-width: 375px) {
                 width: 40%;
                 // background: brown;
+                margin: -120px auto 0 auto;
         }
 
         @media screen and (max-width: 414px){
-            background: rgb(218, 15, 218);
+            // background: rgb(218, 15, 218);
             width: 90%;
+            
 
         }
 
