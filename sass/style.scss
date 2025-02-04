@@ -25,6 +25,12 @@ body{
             background-image: url("../assets/images/background-pattern-desktop.svg");
             background-size: cover;
         }
+
+        // @media screen and (min-width: 415px){
+        //     background-image: url("../assets/images/background-pattern-desktop.svg");
+        //     background-size: cover;
+        // }
+
     }
 
     .main{
@@ -44,6 +50,12 @@ body{
                 width: 40%;
                 // background: brown;
         }
+
+        @media screen and (min-width: 415px){
+            // background: rgb(218, 15, 218);
+            width: 80%;
+        }
+
 
         .title{
             display: flex;
@@ -78,6 +90,7 @@ body{
                         color: hsl(292, 42%, 14%);
                         text-align: start;
                     }
+                    
                     i{
                         // background: red;
                         padding: 5px;
