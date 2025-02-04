@@ -26,11 +26,6 @@ body{
             background-size: cover;
         }
 
-        // @media screen and (min-width: 415px){
-        //     background-image: url("../assets/images/background-pattern-desktop.svg");
-        //     background-size: cover;
-        // }
-
     }
 
     .main{
@@ -51,10 +46,12 @@ body{
                 // background: brown;
         }
 
-        @media screen and (max-width: 415px){
-            // background: rgb(218, 15, 218);
-            width: 80%;
+        @media screen and (max-width: 414px){
+            background: rgb(218, 15, 218);
+            width: 90%;
+
         }
+
 
 
         .title{

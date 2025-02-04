@@ -38,9 +38,10 @@ body .main {
     width: 40%;
   }
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 414px) {
   body .main {
-    width: 80%;
+    background: rgb(218, 15, 218);
+    width: 90%;
   }
 }
 body .main .title {
