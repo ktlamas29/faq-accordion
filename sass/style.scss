@@ -34,7 +34,7 @@ body{
     }
 
     .main{
-        width: 85%;
+        width: 80%;
         background: hsl(0, 0%, 100%);
         margin: -99px  auto 0 auto ;
         padding: 15px;
@@ -51,7 +51,7 @@ body{
                 // background: brown;
         }
 
-        @media screen and (min-width: 415px){
+        @media screen and (max-width: 415px){
             // background: rgb(218, 15, 218);
             width: 80%;
         }
@@ -90,7 +90,7 @@ body{
                         color: hsl(292, 42%, 14%);
                         text-align: start;
                     }
-                    
+
                     i{
                         // background: red;
                         padding: 5px;

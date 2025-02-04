@@ -23,7 +23,7 @@ body header {
   }
 }
 body .main {
-  width: 85%;
+  width: 80%;
   background: hsl(0, 0%, 100%);
   margin: -99px auto 0 auto;
   padding: 15px;
@@ -38,7 +38,7 @@ body .main {
     width: 40%;
   }
 }
-@media screen and (min-width: 415px) {
+@media screen and (max-width: 415px) {
   body .main {
     width: 80%;
   }
